@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 const Weather = () => {
 
     const [weather,setWeather]=useState(null)
-    const apikey='44964122c96971622fdcceec44f5b0c4'
+    const apikey='Enter your api key'
 
     useEffect(()=>{
         if(navigator.geolocation){
